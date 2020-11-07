@@ -2,6 +2,8 @@
 	import Navigation from './Navigation.svelte';
 	import About from "./About.svelte";
 	import Title from './Title.svelte';
+	import Portfolio from './Portfolio.svelte';
+	import Contact from './Contact.svelte'
 
 	let location = window.location.href.split('#')[1]
 	const onClickSection = (section) => {
@@ -12,10 +14,15 @@
 <main>
 	<Navigation onClickSection={onClickSection} />
 	<div class='content'>
+		<!-- We could simplify this using an array of section, but not needed for now-->
 		{#if !location}
 			<Title />
 		{:else if location === 'about'}
 			<About/>
+		{:else if location === 'portfolio'}
+			<Portfolio/>
+		{:else if location === 'contact'}
+			<Contact/>
 		{/if}
 	</div>
 </main>
