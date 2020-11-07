@@ -12,6 +12,13 @@
 </main>
 
 <style>
+	main {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
 
 	ul {
 		list-style: none;
@@ -25,13 +32,7 @@
 		flex-direction: column;
 		justify-content: center;
 	}
-	main {
-		width:100%;
-		height: 100%;
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-	}
+
 
 	h1 {
 		text-align: center;
