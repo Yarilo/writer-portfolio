@@ -1,19 +1,16 @@
 <script>
 </script>
 
-<main>
-    <div class='title'>
-        <h1>SV</h1>
-        <h2>Screenwriter</h2>
-    </div>
-</main>
+<div class='title'>
+    <h1>SV</h1>
+    <h2>Screenwriter</h2>
+</div>
 
 
 <style>
 	
 	.title {
 		text-align: center;
-		flex: 2;
 	}
 
 	h1 {
