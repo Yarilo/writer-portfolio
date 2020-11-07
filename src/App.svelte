@@ -1,15 +1,12 @@
 <script>
 	import Navigation from './Navigation.svelte';
 	import About from "./About.svelte";
+	import Title from './Title.svelte';
 </script>
 
 <main>
 	<Navigation />
-	<div class='title'>
-		<h1>SV</h1>
-		<h2>Screenwriter</h2>
-	</div>
-	
+	<Title />
 </main>
 
 <style>
@@ -21,17 +18,6 @@
 		flex-direction: row;
 		align-items: center;
 		font-family: 'Courier Prime', monospace;
-	}
-
-	.title {
-		text-align: center;
-		flex: 2;
-	}
-
-	h1 {
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
 	}
 	
 </style>

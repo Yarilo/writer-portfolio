@@ -7,7 +7,6 @@
 		<li><a href="#portfolio">Porfolio</a></li>
 		<li><a href="#contact">Contact</a></li>
 	</ul>
-
 	
 </main>
 
