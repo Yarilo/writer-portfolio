@@ -8,14 +8,17 @@
 		<li>Portfolio</li>
 		<li>Contact</li>
 	</ul>
-	<h1>SV</h1>
+	<div class='title'>
+		<h1>SV</h1>
+		<h2>Screenwriter</h2>
+	</div>
+	
 </main>
 
 <style>
 
 	@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 	main {
-		
 		width: 100%;
 		height: 100%;
 		display: flex;
@@ -37,11 +40,11 @@
 		justify-content: center;
 	}
 
-
-	h1 {
+	.title {
 		text-align: center;
-		flex:2;
-		color: black;
+		flex: 2;
+	}
+	h1 {
 		text-transform: uppercase;
 		font-size: 4em;
 		font-weight: 100;
