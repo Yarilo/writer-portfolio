@@ -7,13 +7,13 @@ const works = [
 </script>
 
 <style>
+    ul {
+        padding: 30px;
+    }
 </style>
-
-<div>
-    <h3>Some of my works:</h3>
+    <h3>Some of my works</h3>
     <ul>
         {#each works as work} 
         <li>{work.title}</li>
         {/each}
     </ul>
-</div>
