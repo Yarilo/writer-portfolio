@@ -30,7 +30,7 @@
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 	main {
-		font-family: 'Courier vbnjkñ-', monospace;
+		font-family: 'Courier Prime', monospace;
 		width: 100%;
 		height: 100%;
 
