@@ -1,19 +1,33 @@
 <script>
 // @TODO: On click work, show its text
+
+let selectedWork = undefined;
+
 const works = [
-    {title: 'The bla & the ble 1'}, 
-    {title: 'The bla & the ble 2'}
+    {title: 'The bla & the ble 1', text:'adasdsadsd'}, 
+    {title: 'The bla & the ble 2', text:'adsads'}
 ]
+
+const onClickWork = (work) => {
+    selectedWork = work;
+}
 </script>
 
 <style>
     ul {
         padding: 30px;
     }
+    a {
+		color: black;
+	}
+
 </style>
     <h3>Some of my works</h3>
     <ul>
         {#each works as work} 
-        <li>{work.title}</li>
+        <li><a href='#portfolio' on:click={() => onClickWork(work)}>{work.title}</a></li>
         {/each}
     </ul>
+    {#if selectedWork}
+        <div>{selectedWork.text}</div>
+    {/if}
