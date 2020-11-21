@@ -20,6 +20,9 @@ const onClickWork = (work) => {
     a {
 		color: black;
 	}
+    .reader {
+        /* TODO */
+    }
 
 </style>
     <h3>Some of my works</h3>
@@ -29,5 +32,5 @@ const onClickWork = (work) => {
         {/each}
     </ul>
     {#if selectedWork}
-        <div>{selectedWork.text}</div>
+        <div class='reader'>{selectedWork.text}</div>
     {/if}
