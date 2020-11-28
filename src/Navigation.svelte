@@ -17,9 +17,6 @@
 	li {
 		margin-top: 50px;
 	}
-	a {
-		color: black;
-	}
 	.navigation-drawer {
 		height: 100%;
 		display: flex;

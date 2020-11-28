@@ -19,7 +19,7 @@
 			<Title />
 		{:else if location === 'about'}
 			<About/>
-		{:else if location === 'portfolio'}
+		{:else if location.includes('portfolio')} <!-- TODO Use regexp like /portfolio/:dsdsa-->
 			<Portfolio/>
 		{:else if location === 'contact'}
 			<Contact/>
@@ -38,7 +38,10 @@
 		flex-direction: row;
 		align-items: center;
 	}
-
+	main :global(a) {
+		color: black;
+	}
+	
 	.content {
 		width: 100%;
 		height: 100%;
@@ -48,5 +51,5 @@
 		align-items: center;
 		justify-content: center;
 	}
-	
+
 </style>
