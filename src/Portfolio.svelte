@@ -1,10 +1,6 @@
 <script>
 import { onMount } from 'svelte';
-
-const works = [
-    {title: 'The bla & the ble 1', text:'adasdsadsd', href:'bla_ble_1'}, 
-    {title: 'The bla & the ble 2', text:'adsads', href: 'bla_ble_2'}
-]
+import works from '../public/works';
 
 let selectedWork = undefined;
 
@@ -24,7 +20,8 @@ const onClickWork = (work) => {
     }
 
     .reader {
-        /* TODO */
+        /* @TODO: Add overflow and so on */
+       white-space: pre-wrap;
     }
 
 </style>
