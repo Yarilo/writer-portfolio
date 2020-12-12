@@ -21,18 +21,21 @@ const onClickWork = (work) => {
 
     .reader {
         width: 60%;
+        max-height: 60%;
         margin-right: 144px; /* 1.5in */
         margin-left: 96px; /* 1in */
     }
-    .text {
-       white-space: pre-line;
-       overflow-y: auto;
-       line-height: 1.5;
     
-    }
     #back {
         text-align: left;
         margin-bottom: 20px;
+    }
+    
+    .text {
+       white-space: pre-line;
+       line-height: 1.5;
+       max-height: 100%;
+       overflow-y: auto;
     }
 
 </style>
