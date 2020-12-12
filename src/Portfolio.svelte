@@ -20,23 +20,33 @@ const onClickWork = (work) => {
     }
 
     .reader {
-        /* @TODO: Add overflow and so on */
-       white-space: pre-wrap;
-       width: 60%;
-       overflow-y: auto;
+        width: 60%;
+        margin-right: 144px; /* 1.5in */
+        margin-left: 96px; /* 1in */
     }
-    /* @TODO: Use a div container to put everything inside and style it with flexbox or something like that */
+    .text {
+       white-space: pre;
+       overflow-y: auto;
+       line-height: 1.5;
+    
+    }
     #back {
         text-align: left;
-        width: 60%;
+        margin-bottom: 20px;
     }
 
 </style>
 
 {#if selectedWork}
-    <a href='#portfolio' id='back' on:click={() => onClickWork(undefined)}>{'< Back'}</a>
     <h1>{selectedWork.title}</h1>
-    <div class='reader'>{selectedWork.text}</div>
+    <div class='reader'>
+        <p>
+            <a href='#portfolio' id='back' on:click={() => onClickWork(undefined)}>{'< Back'}</a>
+        </p>
+        <div class='text'>
+                {selectedWork.text}
+        </div>
+    </div>
 {:else}
     <h3>Some of my works</h3>
     <ul>
