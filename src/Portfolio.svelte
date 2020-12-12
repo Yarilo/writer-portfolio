@@ -25,7 +25,7 @@ const onClickWork = (work) => {
         margin-left: 96px; /* 1in */
     }
     .text {
-       white-space: pre;
+       white-space: pre-line;
        overflow-y: auto;
        line-height: 1.5;
     
@@ -48,7 +48,7 @@ const onClickWork = (work) => {
         </div>
     </div>
 {:else}
-    <h3>Some of my works</h3>
+    <h2>Some of my works</h2>
     <ul>
         {#each works as work} 
         <li><a href='#portfolio/{work.href}' on:click={() => onClickWork(work)}>{work.title}</a></li>
