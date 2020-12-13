@@ -1,4 +1,5 @@
-import { default as work1 } from './work1';
-import { default as work2 } from './work2';
+import { default as frio } from './frio';
+import { default as florIluminada } from './florIluminada';
+import { default as recorridoFinal } from './recorridoFinal';
 
-export default [work1, work2]
+export default [frio, florIluminada, recorridoFinal]

@@ -16,12 +16,14 @@ export default {
     por lo que empezó a sentir como el metal atravesaba poco a poco su piel. Disparó su
     rodilla hacia su estómago y esto le dio la oportunidad de arrancar uno de sus dedos con
     sus dientes.
+
     Su agarre cedió y la mujer le arrebató el cuchillo, con el cual apuñaló la cara de la
     sombra. Su muerte desveló sus facciones humanas, pero ella ya no le prestaba atención,
     sus ojos fijos en un hacha al final del túnel. Prístina y brillante, su mera presencia limpiaba
     el agujero y aligeraba el dolor que pesaba por todo su cuerpo. Sus manos ni pudieron
     alzar el arma y por un momento, contempló la posibilidad de dejar el hacha, pero no se
     atrevió a continuar sin ella.
+
     Así que tuvo que arrastrar el metal por las alcantarillas y aunque el dolor no hizo sino
     aumentar, algo empezó a cambiar en ella. Sus músculos, en un ciclo de rotura y
     regeneración, aumentaron de tamaño, los dientes que apretaba hasta que sangre salía de
@@ -31,6 +33,9 @@ export default {
     podía arrastrarla con una mano. Y en ese estado es cuando llegó a la última habitación,
     llena de sombras y cadáveres por doquier. La lucha parecía haber terminado, pero la
     mujer aún pudo oír gemidos y quejidos de dolor.
+    
+    ....
+
     `,
     href:"flor-iluminada-rojo"
 }
