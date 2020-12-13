@@ -41,13 +41,16 @@ const onClickWork = (work) => {
 </style>
 
 {#if selectedWork}
-    <h1>{selectedWork.title}</h1>
+    <h1>{selectedWork.title}</h1> <!-- Should be h2?-->
+    {#if selectedWork.subtitle} 
+        <h3>{selectedWork.subtitle}</h3>
+    {/if}
     <div class='reader'>
         <p>
             <a href='#portfolio' id='back' on:click={() => onClickWork(undefined)}>{'< Back'}</a>
         </p>
         <div class='text'>
-                {selectedWork.text}
+            {selectedWork.text}
         </div>
     </div>
 {:else}

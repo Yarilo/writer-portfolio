@@ -1,5 +1,6 @@
 export default {
     title: 'Recorrido final',
+    subtitle: 'A short film script',
     text: 
     `
         1.INT.APARTAMENTO, SALÓN/DÍA
