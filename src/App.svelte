@@ -12,7 +12,7 @@
 </script>
 
 <main>
-	<Navigation onClickSection={onClickSection} />
+	<Navigation location={location} onClickSection={onClickSection} />
 	<div class='content'>
 		<!-- We could simplify this using an array of section, but not needed for now-->
 		{#if !location}
