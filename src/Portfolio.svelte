@@ -20,7 +20,7 @@ const onClickWork = (work) => {
     }
 
     .reader {
-        width: 60%;
+        width: 45%; /* @TODO: Should we use absolute units here? */
         max-height: 60%;
         margin-right: 144px; /* 1.5in */
         margin-left: 96px; /* 1in */
@@ -39,6 +39,7 @@ const onClickWork = (work) => {
     }
 
 </style>
+<!-- Split into subsections? Short things...etc -->
 
 {#if selectedWork}
     <h1>{selectedWork.title}</h1> <!-- Should be h2?-->
@@ -50,7 +51,7 @@ const onClickWork = (work) => {
             <a href='#portfolio' id='back' on:click={() => onClickWork(undefined)}>{'< Volver'}</a>
         </p>
         <div class='text'>
-            {selectedWork.text}
+            {@html selectedWork.text}
         </div>
     </div>
 {:else}
