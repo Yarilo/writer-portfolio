@@ -2,7 +2,7 @@
 </script>
 
 <h2>Contact</h2>
-<p>contact@samuelvillanueva.com</p>
+<p>contact@eldemuchashistorias.com</p>
 <!--@TODO: Linkedin links and more-->
 <style>
 </style>
