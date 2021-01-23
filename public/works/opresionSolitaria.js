@@ -1,6 +1,6 @@
 export default {
     title: "Opresión solitaria",
-    subtitle: 'preview',
+    subtitle: '(preview)',
     text : 
     `
     Nada más despertarse, Ryan tuvo que forzar una sonrisa al ver al monstruo delante de su cama:
