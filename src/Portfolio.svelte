@@ -47,14 +47,14 @@ const onClickWork = (work) => {
     {/if}
     <div class='reader'>
         <p>
-            <a href='#portfolio' id='back' on:click={() => onClickWork(undefined)}>{'< Back'}</a>
+            <a href='#portfolio' id='back' on:click={() => onClickWork(undefined)}>{'< Volver'}</a>
         </p>
         <div class='text'>
             {selectedWork.text}
         </div>
     </div>
 {:else}
-    <h2>Some of my works</h2>
+    <h2>Algunos de mis trabajos</h2>
     <ul>
         {#each works as work} 
         <li><a href='#portfolio/{work.href}' on:click={() => onClickWork(work)}>{work.title}</a></li>

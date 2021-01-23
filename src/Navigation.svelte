@@ -10,9 +10,9 @@
 
 <ul class='navigation-drawer'>
     <li on:click={() => onClickSection("")}><a href="">SV</a></li>
-    <li class={getClass('about', location)} on:click={() => onClickSection("about")}><a href="#about">About</a></li>
+    <li class={getClass('about', location)} on:click={() => onClickSection("about")}><a href="#about">Sobre mi</a></li>
     <li class={getClass('portfolio', location)} on:click={() => onClickSection("portfolio")}><a href="#portfolio">Portfolio</a></li>
-    <li class={getClass('contact', location)} on:click={() => onClickSection("contact")}><a href="#contact">Contact</a></li>
+    <li class={getClass('contact', location)} on:click={() => onClickSection("contact")}><a href="#contact">Contacto</a></li>
 </ul>
 	
 
