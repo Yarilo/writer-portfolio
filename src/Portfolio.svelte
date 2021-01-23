@@ -18,6 +18,9 @@ const onClickWork = (work) => {
     ul {
         padding: 30px;
     }
+    li {
+        margin-top: 20px;
+    }
 
     .reader {
         width: 45%; /* @TODO: Should we use absolute units here? */
@@ -39,10 +42,9 @@ const onClickWork = (work) => {
     }
 
 </style>
-<!-- Split into subsections? Short things...etc -->
 
 {#if selectedWork}
-    <h1>{selectedWork.title}</h1> <!-- Should be h2?-->
+    <h1>{selectedWork.title}</h1>
     {#if selectedWork.subtitle} 
         <h3>{selectedWork.subtitle}</h3>
     {/if}

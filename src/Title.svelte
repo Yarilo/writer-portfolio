@@ -3,7 +3,7 @@
 
 <div class='title'>
     <h1>SV</h1>
-    <h2>Guionista</h2>
+    <h2>Escritor</h2>
 </div>
 
 
