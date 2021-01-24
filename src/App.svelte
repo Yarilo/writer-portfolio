@@ -52,4 +52,11 @@
 		justify-content: center;
 	}
 
+	@media (max-width:800px)  { 
+		main{
+			display: flex;
+			flex-direction: column;
+		}
+	}
+
 </style>

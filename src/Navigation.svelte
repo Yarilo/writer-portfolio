@@ -34,4 +34,17 @@
 		flex-direction: column;
 		justify-content: center;
 	}
+
+	@media (max-width:800px)  { 
+
+		.navigation-drawer{
+			height: initial;
+			margin-top: 0px;
+			display: flex;
+			flex-direction: row;
+			width: 100%;
+			justify-content: space-around;
+		}
+	}
+
 </style>

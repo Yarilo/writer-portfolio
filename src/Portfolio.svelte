@@ -41,6 +41,14 @@ const onClickWork = (work) => {
        overflow-y: auto;
     }
 
+	@media (max-width:800px)  { 
+
+		.reader {
+            width: 85%;
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+	}
 </style>
 
 {#if selectedWork}
