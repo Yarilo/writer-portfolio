@@ -28,7 +28,6 @@
 </main>
 
 <style>
-	@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
 	main {
 		font-family: 'Courier Prime', monospace;
 		width: 100%;
