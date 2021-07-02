@@ -1,7 +1,9 @@
+import elFantasmaDelosSuburbios from './elFantasmaDelosSuburbios';
 import minirrelatos from './minirrelatos';
-import { default as opresionSolitaria } from './opresionSolitaria';
-import { default as relacionDeDependencia } from './relacionDeDependencia';
-import { default as unFalsoDiseno } from './unFalsoDiseno';
-export {default as minirrelatos} from './minirrelatos';
+import opresionSolitaria from './opresionSolitaria';
+import relacionDeDependencia from './relacionDeDependencia';
+import servicioDiurno from './servicioDiurno';
+import unaParadojaMortal from './unaParadojaMortal';
+import unFalsoDiseno from './unFalsoDiseno';
 
-export default [opresionSolitaria, relacionDeDependencia, unFalsoDiseno, minirrelatos]
+export default [opresionSolitaria, relacionDeDependencia, unFalsoDiseno, minirrelatos, elFantasmaDelosSuburbios, unaParadojaMortal, servicioDiurno]
